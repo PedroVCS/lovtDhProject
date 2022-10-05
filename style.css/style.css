@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+      
+ body {
+ font-family: 'Ropa Sans', sans-serif;
+ color: #777777;
+ margin: 0 auto;
+ padding: 0;
+ width: 780px;
+}
+
+body > header{
+    padding: 8px 44px;
+  font-size: 18px;
+  line-height: 20px;
+  box-shadow: 1px 1px 10px gray;
+
+  }
+header > * {
+  display: inline-block;
+  margin: 0 auto;
+}
+  body > header > img {
+     margin: 0 0 0 60%;
+  }
+
+  #banner {
+    margin: 10px 44px;
+  }
+ 
+    #sales{
+    margin: 10px 44px;
+  }
+
+  #sales > article{
+    display: inline-block;
+    width: 40%;
+  }
+
+  #sales > article #right-sales {
+      float: right;
+  }
+  
+  #sales > article > footer{
+    padding: 12px;
+    background-color: #EEEEEE;
+  }
+  #sales span{
+    font-size: 25px;
+    line-height: 27px;
+  }
+  .right {
+    border-radius: 10.5px;
+    background-color: blue;
+    float: right;
+  }
